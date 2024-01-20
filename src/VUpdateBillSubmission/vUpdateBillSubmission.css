@@ -1,0 +1,72 @@
+/* 
+
+.table-text-title {
+    color: var(--Gray-700, #464F60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+    letter-spacing: 0.44px;
+    text-transform: uppercase;
+}
+
+
+.table-text-content{
+    color: var(--Gray-900, #171C26);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 0.28px;
+    text-align: center;
+}
+
+.title{
+    color: #E74A3B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.96px;
+} */
+
+
+/* ============================ large Device ======================== */
+
+.heading {
+    color: #E74A3B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+
+.table-heading {
+    color: var(--Gray-700, #464F60);
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.44px;
+    text-transform: uppercase;
+}
+
+.table-content-text {
+    color: var(--Gray-900, #171C26);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+}
+
+/* ===================== Medium Device ===================== */

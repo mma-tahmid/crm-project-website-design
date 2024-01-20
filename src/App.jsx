@@ -4,6 +4,8 @@ import './App.css'
 import ServiceBill from './Components/ServiceBill/ServiceBill'
 import BillSubmission from './Components/BillSubmission/BillSubmission'
 import UpdatedBillSubmission from './Components/UpdatedBillSubmission/UpdatedBillSubmission'
+import VUpdateBillSubmission from './VUpdateBillSubmission/VUpdateBillSubmission'
+import SupplierInformationDetails from './Components/SupplierInformationDetails/SupplierInformationDetails'
 
 function App() {
 
@@ -18,11 +20,12 @@ function App() {
       <BrowserRouter>
 
 
-
         <Routes>
           <Route path="/" element={<ServiceBill />} />
           <Route path="/bill-submission" element={<BillSubmission />} />
-          <Route path="/updated-bill-submission" element={<UpdatedBillSubmission />} />
+          {/* <Route path="/updated-bill-submission" element={<UpdatedBillSubmission />} /> */}
+          <Route path="/v1-updated-bill-submission" element={<VUpdateBillSubmission />} />
+          <Route path="/supplier-information-details" element={<SupplierInformationDetails />} />
 
 
         </Routes>
