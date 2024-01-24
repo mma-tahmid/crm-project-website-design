@@ -23,3 +23,14 @@
     line-height: normal;
     letter-spacing: 0.96px;
 }
+
+
+.customs-border {
+    border-radius: 3px;
+    border: 2px solid rgba(235, 87, 87, 0.29);
+    background: #FFF;
+}
+
+/* @media (min-width: 200px) {
+   
+} */
