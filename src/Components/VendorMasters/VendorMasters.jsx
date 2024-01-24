@@ -203,14 +203,14 @@ const VendorMasters = () => {
             <div className='container mx-auto px-10 py-5'>
 
                 <div className='flex border border-[#EB5757]'>
-                    <div className='w-[20%] bg-[#EB5757D1]'>
-                        <div className='w-[85px] ml-[98px] mt-[98px] '>
-                            BANK NO  01
+                    <div className='w-[20%] sm:w-[20%]  bg-[#EB5757D1]'>
+                        <div className='  -rotate-90 sm:rotate-0 mt-[280px]  lg:w-[85px] md:mx-[30px] md:mt-[130px] lg:ml-[98px] lg:mt-[98px] '>
+                            BANK NO <br /> <span className='md:mx-[25px] mx-[20px] '> 01 </span>
                         </div>
                     </div>
 
-                    <div className='w-[80%] '>
-                        <div className='grid grid-cols-3 px-6 gap-6 '>
+                    <div className='w-[80%] sm:w-[80%] lg:w-[80%] '>
+                        <div className='grid md:grid-cols-2 lg:grid-cols-3 px-6 gap-6 '>
 
                             <div className="mt-2">
 

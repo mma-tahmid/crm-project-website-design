@@ -7,6 +7,7 @@ import UpdatedBillSubmission from './Components/UpdatedBillSubmission/UpdatedBil
 import VUpdateBillSubmission from './VUpdateBillSubmission/VUpdateBillSubmission'
 import SupplierInformationDetails from './Components/SupplierInformationDetails/SupplierInformationDetails'
 import VendorMasters from './Components/VendorMasters/VendorMasters'
+import BankDetails from './Components/BankDetails/BankDetails'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
           <Route path="/v1-updated-bill-submission" element={<VUpdateBillSubmission />} />
           <Route path="/supplier-information-details" element={<SupplierInformationDetails />} />
           <Route path="/vendor-masters" element={<VendorMasters />} />
-
+          <Route path="/bank-details" element={<BankDetails />} />
 
         </Routes>
       </BrowserRouter>
