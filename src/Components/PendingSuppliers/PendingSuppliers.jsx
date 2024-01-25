@@ -2,13 +2,11 @@
 import { LuEye } from "react-icons/lu";
 import { Table } from 'antd';
 import React, { useState } from 'react';
-import "./supplierInformationDetails.css"
-
-// NO NEED
+import { IoSearchSharp } from "react-icons/io5";
 
 
 
-const SupplierInformationDetails = () => {
+const PendingSuppliers = () => {
 
 
     const [dataSources, setDataSource] = useState([
@@ -164,13 +162,26 @@ const SupplierInformationDetails = () => {
 
 
 
-                <div className='custom-table-title px-6'>Deactive Suppliers</div>
+
+
+                <div className='custom-table-title px-6'>Pending Suppliers</div>
+
 
                 {/* Table PART */}
 
-                <div className='mt-7 px-6 list-text'>
-                    Deactive Supplier  List
+                <div className=' flex justify-between mt-7 px-6 list-text'>
+                    <div> Pending Supplier  List </div>
+
+                    <div className="relative">
+                        <input className=" pl-3 pr-10 w-[177px]  h-[34px] rounded-[5px] bg-[#FFF] border-[1px] border-[#D9D9D9]  focus:outline-none focus:border-[#E74A3B] border-solid" placeholder="Search here" type="search" />
+                        <div className="absolute top-[2px] left-[150px]  ">
+                            <IoSearchSharp className="text-[#FFF]  bg-[#EB5757] rounded-[3px] w-[25px] h-[30px] " />
+                        </div>
+                    </div>
+
                 </div>
+
+
 
 
 
@@ -202,7 +213,7 @@ const SupplierInformationDetails = () => {
     );
 };
 
-export default SupplierInformationDetails;
+export default PendingSuppliers;
 
 
 
