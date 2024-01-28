@@ -13,6 +13,7 @@ import DeActiveSupplier from './Components/DeActiveSupplier/DeActiveSupplier'
 import PendingSuppliers from './Components/PendingSuppliers/PendingSuppliers'
 import PendingSuppliersDetailsPopup from './Components/PendingSuppliersDetailsPopup/PendingSuppliersDetailsPopup'
 import TestReactModal from './Components/TestReact Modal/TestReactModal'
+import TextTransform from './Components/TextTransform/TextTransform'
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/pending-suppliers" element={<PendingSuppliers />} />
           <Route path="/pending-suppliers-details-popup" element={<PendingSuppliersDetailsPopup />} />
           <Route path="/test-react-modal" element={<TestReactModal />} />
+          <Route path="test-transform" element={<TextTransform />} />
 
         </Routes>
       </BrowserRouter>

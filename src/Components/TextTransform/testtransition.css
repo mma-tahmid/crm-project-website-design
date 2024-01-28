@@ -1,0 +1,9 @@
+.btn {
+    background-color: blue;
+
+}
+
+.btn:hover {
+    background-color: black;
+    transition: background-color 4s ease;
+}

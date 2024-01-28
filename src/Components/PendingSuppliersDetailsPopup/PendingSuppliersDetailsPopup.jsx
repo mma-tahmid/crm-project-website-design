@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import { IoSearchSharp } from "react-icons/io5";
 import Modal from 'react-modal';
 import { Link } from "react-router-dom";
+import "./pendingSuppliersDetailsPopup.css"
 
 
 const PendingSuppliersDetailsPopup = () => {
