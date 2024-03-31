@@ -10,7 +10,7 @@ import "./pendingSuppliersDetailsPopup.css"
 
 const PendingSuppliersDetailsPopup = () => {
 
-    // Modal
+    // React Modal
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -45,6 +45,7 @@ const PendingSuppliersDetailsPopup = () => {
             requestedBy: "Mr. RASEL",
             approvedBy: "Mr. Rasel"
         },
+
 
         {
             key: "3",
@@ -119,7 +120,7 @@ const PendingSuppliersDetailsPopup = () => {
             render: (text, record) => (
                 <Link> <LuEye onClick={openModal} /> </Link>
             ),
-            responsive: ['md'],
+            // responsive: ['md'],
         },
 
     ]
@@ -134,7 +135,7 @@ const PendingSuppliersDetailsPopup = () => {
             <div className="flex">
                 <div className="w-[50%]">Email:</div>
                 <div className="w-[48%]">{record.email}</div>
-                <div className=" w-[2%] sm:hidden"><LuEye /></div>
+                {/* <div className=" w-[2%] sm:hidden"><LuEye /></div> */}
             </div>
 
             <div className="flex">
